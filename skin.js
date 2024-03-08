@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ?????? VR ?? - ??????.ggsk
-// Generated 2024-03-08T17:35:31
+// Generated 2024-03-08T18:05:46
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_maincenter', 2, false, { ignoreInState: 0  });
@@ -1158,10 +1158,6 @@ function pano2vrSkin(player,base) {
 			if (
 				(
 					((player.getViewerSize().width <= 460))
-				)
-			||
-				(
-					((player.getIsMobile() == true))
 				)
 			) {
 				me.__38.ggVisible = !me.__38.ggVisible;
@@ -5346,24 +5342,6 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateVisible = 0;
 			}
-			else if (
-				((player.getIsMobile() == true))
-			)
-			{
-				newLogicStateVisible = 1;
-			}
-			else if (
-				((player.getViewerSize().width > 640))
-			)
-			{
-				newLogicStateVisible = 2;
-			}
-			else if (
-				((player.getIsMobile() == false))
-			)
-			{
-				newLogicStateVisible = 3;
-			}
 			else {
 				newLogicStateVisible = -1;
 			}
@@ -5373,18 +5351,6 @@ function pano2vrSkin(player,base) {
 				if (me.__38.ggCurrentLogicStateVisible == 0) {
 					me.__38.style.visibility=(Number(me.__38.style.opacity)>0||!me.__38.style.opacity)?'inherit':'hidden';
 					me.__38.ggVisible=true;
-				}
-				else if (me.__38.ggCurrentLogicStateVisible == 1) {
-					me.__38.style.visibility=(Number(me.__38.style.opacity)>0||!me.__38.style.opacity)?'inherit':'hidden';
-					me.__38.ggVisible=true;
-				}
-				else if (me.__38.ggCurrentLogicStateVisible == 2) {
-					me.__38.style.visibility="hidden";
-					me.__38.ggVisible=false;
-				}
-				else if (me.__38.ggCurrentLogicStateVisible == 3) {
-					me.__38.style.visibility="hidden";
-					me.__38.ggVisible=false;
 				}
 				else {
 					me.__38.style.visibility="hidden";
@@ -10401,7 +10367,6 @@ function pano2vrSkin(player,base) {
 			me._map_11.ggInitMap(false);
 			me._map_11.ggInitMapMarkers(true);
 			me.__38.logicBlock_position();
-			me.__38.logicBlock_visible();
 			for (var i=0; i < me._map_10.ggMarkerInstances.length; i++) {
 				me._map_10.ggMarkerInstances[i].ggEvent_configloaded();
 			}
