@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ?????? VR ?? - ??????.ggsk
-// Generated 2024-03-11T15:34:57
+// Generated 2024-03-11T17:44:45
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_maincenter', 2, false, { ignoreInState: 0  });
@@ -9321,7 +9321,6 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="\ub2e8\uc9c0VR";
-		el.ggDx=5;
 		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=true;
@@ -9332,11 +9331,11 @@ function pano2vrSkin(player,base) {
 		hs+='color : rgba(255,255,255,1);';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
-		hs+='left : calc(50% - ((80px + 0px) / 2) + 5px);';
+		hs+='left : 15px;';
 		hs+='position : absolute;';
 		hs+='top : calc(50% - ((100% + 0px) / 2) + 0px);';
 		hs+='visibility : inherit;';
-		hs+='width : 80px;';
+		hs+='width : 100%;';
 		hs+='pointer-events:auto;';
 		hs+='letter-spacing:1px;';
 		el.setAttribute('style',hs);
@@ -9359,7 +9358,7 @@ function pano2vrSkin(player,base) {
 		els.setAttribute('style',hs);
 		me._vr.ggUpdateText=function() {
 			var params = [];
-			var hs = player._("\ub2e8\uc9c0VR", params);
+			var hs = player._("\ucee4\ubba4\ub2c8\ud2f0 VR", params);
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
