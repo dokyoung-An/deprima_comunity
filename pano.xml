@@ -76,7 +76,7 @@
       <label textalpha="1" borderradius="1" wordwrap="1" enabled="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" textcolor="0x000000" border="1" height="20" borderalpha="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff"/>
       <hotspot pan="-180.77" url="{node1}" id="Point01" description="" target="" tilt="-28.92" title="도서관" skinid="꺽은선2"/>
-      <hotspot pan="-180.64" url="{node2}" id="Point04" description="" target="" tilt="-11.1" title="복도1" skinid="ht_node"/>
+      <hotspot pan="-181.47" url="{node2}" id="Point04" description="" target="" tilt="-4.08" title="복도1" skinid="ht_node"/>
       <hotspot pan="-4.03" url="{node5}" id="Point02" description="" target="" tilt="-26.56" title="골프연습장2" skinid="꺽은선"/>
       <hotspot pan="-1.5" url="{node4}" id="Point03" description="" target="" tilt="-12.23" title="골프연습장1" skinid="ht_node"/>
     </hotspots>
