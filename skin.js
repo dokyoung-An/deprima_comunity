@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.9/20024
 // Filename: ???? ?????? VR ?? - ??????.ggsk
-// Generated 2024-03-13T10:48:12
+// Generated 2024-03-13T10:58:14
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_maincenter', 2, false, { ignoreInState: 0  });
@@ -203,7 +203,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : rgba(34,30,31,0.470588);';
+		hs+='background : rgba(255,255,255,0.470588);';
 		hs+='border : 0px solid #000000;';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
@@ -1438,7 +1438,7 @@ function pano2vrSkin(player,base) {
 				me.__210.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
 				me.__210.style.transition='background-color 0s';
 				if (me.__210.ggCurrentLogicStateBackgroundColor == 0) {
-					me.__210.style.backgroundColor="rgba(34,30,31,1)";
+					me.__210.style.backgroundColor="rgba(255,255,255,1)";
 				}
 				else {
 					me.__210.style.backgroundColor="rgba(255,255,255,1)";
@@ -1788,7 +1788,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #221e1f;';
+		hs+='background : #ffffff;';
 		hs+='border : 0px solid #000000;';
 		hs+='border-radius : 50px;';
 		hs+='cursor : default;';
@@ -2453,7 +2453,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #221e1f;';
+		hs+='background : #ffffff;';
 		hs+='border : 0px solid #000000;';
 		hs+='border-radius : 50px;';
 		hs+='cursor : default;';
@@ -2776,7 +2776,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #221e1f;';
+		hs+='background : #ffffff;';
 		hs+='border : 0px solid #000000;';
 		hs+='border-radius : 50px;';
 		hs+='cursor : default;';
@@ -3158,7 +3158,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='background : #221e1f;';
+		hs+='background : #ffffff;';
 		hs+='border : 0px solid #000000;';
 		hs+='border-radius : 50px;';
 		hs+='cursor : default;';
@@ -6713,7 +6713,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 0px solid #000000;';
 		hs+='bottom : 1px;';
-		hs+='color : rgba(255,255,255,1);';
+		hs+='color : rgba(34,30,31,1);';
 		hs+='cursor : default;';
 		hs+='height : 100%;';
 		hs+='left : 0px;';
